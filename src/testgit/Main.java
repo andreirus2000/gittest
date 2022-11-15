@@ -8,4 +8,12 @@ public class Main {
 
 	}
 
+	@Override
+	public String toString() {
+		return "Main [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
+	
+
 }
